@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gith-the-Architect</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_progress">ProgressActivity</string>
+</resources>
