@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <SurfaceView
-        android:id="@+id/surfaceView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/phototest" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="95dp"
         android:layout_height="82dp"
         android:src="@drawable/photoicon"
-        android:translationX="155dp"
-        android:translationY="630dp" />
+        android:translationX="775dp"
+        android:translationY="175dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="105dp"
-        android:layout_height="83dp"
+        android:layout_height="91dp"
         android:background="#00FFFFFF"
-        android:translationX="155dp"
-        android:translationY="630dp" />
+        android:translationX="775dp"
+        android:translationY="173dp" />
+
 </FrameLayout>

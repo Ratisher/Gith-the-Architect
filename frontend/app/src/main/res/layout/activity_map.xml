@@ -15,12 +15,14 @@
             android:layout_width="57dp"
             android:layout_height="58dp"
             android:foregroundTint="#7631E9"
-            android:src="@drawable/ic_action_name" />
+            android:src="@drawable/ic_action_name"
+            android:translationY="10dp" />
 
         <ImageView
             android:id="@+id/imageView8"
             android:layout_width="wrap_content"
-            android:layout_height="601dp"
+            android:layout_height="756dp"
+            android:scaleType="centerCrop"
             android:translationX="12dp"
             android:translationY="64dp"
             app:srcCompat="@drawable/mapapp" />
@@ -29,7 +31,8 @@
             android:id="@+id/button13"
             android:layout_width="59dp"
             android:layout_height="61dp"
-            android:background="#00FFFFFF" />
+            android:background="#00FFFFFF"
+            android:translationY="5dp" />
 
         <Button
             android:id="@+id/button11"
@@ -37,7 +40,7 @@
             android:layout_height="105dp"
             android:background="#00FFFFFF"
             android:translationX="155dp"
-            android:translationY="630dp" />
+            android:translationY="785dp" />
 
         <Button
             android:id="@+id/button6"
@@ -46,7 +49,7 @@
             android:layout_weight="1"
             android:background="#00FFFFFF"
             android:translationX="25dp"
-            android:translationY="660dp" />
+            android:translationY="820dp" />
 
         <Button
             android:id="@+id/button7"
@@ -55,25 +58,25 @@
             android:layout_weight="1"
             android:background="#00FFFFFF"
             android:translationX="300dp"
-            android:translationY="660dp" />
+            android:translationY="820dp" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Гид архитектуры"
+            android:text="Карта"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="#000000"
             android:textColorLink="#7631E9"
             android:textSize="24sp"
             android:translationX="65dp"
-            android:translationY="13dp" />
+            android:translationY="20dp" />
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="67dp"
-            android:background="#FDFCFC"
-            android:translationY="664dp">
+            android:background="#EBE8E8"
+            android:translationY="824dp">
 
             <TextView
                 android:id="@+id/textView8"
@@ -125,7 +128,7 @@
             android:layout_height="82dp"
             android:src="@drawable/photoicon"
             android:translationX="155dp"
-            android:translationY="630dp" />
+            android:translationY="785dp" />
 
     </FrameLayout>
 </LinearLayout>

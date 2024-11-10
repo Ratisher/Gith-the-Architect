@@ -26,7 +26,159 @@
                     android:id="@+id/imageView1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/quest2" />
+                    app:srcCompat="@drawable/quest3"
+                    tools:srcCompat="@drawable/quest3" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                android:background="#FFFFFF"
+                android:translationY="135dp">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="173dp"
+                    android:layout_height="93dp"
+                    android:text="Кемеровский областной театр драмы имени А. В. Луначарского был основан 1 ноября 1934 года. Изначально театр размещался в здании"
+                    android:textColor="#050505"
+                    android:textSize="12sp"
+                    android:translationX="15dp"
+                    android:translationY="10dp" />
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="368dp"
+            android:layout_height="253dp"
+            android:background="#FDFCFC"
+            android:translationX="22dp"
+            android:translationY="65dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="162dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/quest6"
+                tools:srcCompat="@drawable/quest4" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:background="#FFFFFF"
+                android:translationY="155dp">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="222dp"
+                    android:layout_height="wrap_content"
+                    android:background="#2196F3"
+                    android:text="Работает с 10:00 до 18:00"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#FFFFFF"
+                    android:translationX="15dp"
+                    android:translationY="15dp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="332dp"
+                    android:layout_height="49dp"
+                    android:text="Посетите на этой неделе Выставочный центр «Вернисаж»"
+                    android:textColor="#050505"
+                    android:translationX="15dp"
+                    android:translationY="35dp" />
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="201dp"
+            android:layout_height="243dp"
+            android:background="#FDFCFC"
+            android:translationX="22dp"
+            android:translationY="375dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="139dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/quest2"
+                    tools:srcCompat="@drawable/quest2" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                android:background="#FFFFFF"
+                android:translationY="135dp">
+
+                <TextView
+                    android:id="@+id/textView0"
+                    android:layout_width="173dp"
+                    android:layout_height="93dp"
+                    android:text="Музыкальный театр Кузбасса имени А. К. Боброва Музыкальный театр Кузбасса имени А. К. Боброва — это театр, который предлагает..."
+                    android:textColor="#050505"
+                    android:textSize="12sp"
+                    android:translationX="15dp"
+                    android:translationY="10dp" />
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Гид архитектуры"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#000000"
+            android:textColorLink="#7631E9"
+            android:textSize="24sp"
+            android:translationX="25dp"
+            android:translationY="20dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:translationY="630dp">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Памятники культуры"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#323435"
+                android:textColorLink="#7631E9"
+                android:textSize="24sp"
+                android:translationX="22dp"
+                android:translationY="3dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="201dp"
+            android:layout_height="243dp"
+            android:background="#FDFCFC"
+            android:translationX="262dp"
+            android:translationY="675dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="139dp">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="matrix"
+                    app:srcCompat="@drawable/quest8" />
             </FrameLayout>
 
             <FrameLayout
@@ -49,53 +201,22 @@
         </FrameLayout>
 
         <FrameLayout
-            android:layout_width="368dp"
-            android:layout_height="253dp"
-            android:background="#FDFCFC"
-            android:translationX="22dp"
-            android:translationY="65dp">
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:scaleType="fitXY"
-                android:layout_width="match_parent"
-                android:layout_height="167dp"
-                app:srcCompat="@drawable/quest1" />
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="98dp"
-                android:background="#FFFFFF"
-                android:translationY="155dp">
-
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="332dp"
-                    android:layout_height="49dp"
-                    android:text="Задание недели - "
-                    android:textColor="#050505"
-                    android:translationX="15dp"
-                    android:translationY="15dp" />
-            </FrameLayout>
-
-        </FrameLayout>
-
-        <FrameLayout
             android:layout_width="201dp"
             android:layout_height="243dp"
             android:background="#FDFCFC"
             android:translationX="22dp"
-            android:translationY="375dp">
+            android:translationY="675dp">
 
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="139dp">
 
                 <ImageView
-                    android:id="@+id/imageView5"
+                    android:id="@+id/imageView10"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/quest2" />
+                    android:scaleType="matrix"
+                    app:srcCompat="@drawable/quest7" />
             </FrameLayout>
 
             <FrameLayout
@@ -117,33 +238,13 @@
 
         </FrameLayout>
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="57dp"
-            android:layout_height="58dp"
-            android:foregroundTint="#7631E9"
-            android:src="@drawable/ic_action_name"
-            app:srcCompat="@drawable/ic_action_name" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Гид архитектуры"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="#000000"
-            android:textColorLink="#7631E9"
-            android:textSize="24sp"
-            android:translationX="65dp"
-            android:translationY="13dp" />
-
         <Button
             android:id="@+id/button3"
             android:layout_width="99dp"
             android:layout_height="105dp"
             android:background="#00FFFFFF"
             android:translationX="155dp"
-            android:translationY="630dp" />
+            android:translationY="785dp" />
 
         <Button
             android:id="@+id/button4"
@@ -151,7 +252,7 @@
             android:layout_height="72dp"
             android:background="#00FFFFFF"
             android:translationX="25dp"
-            android:translationY="660dp" />
+            android:translationY="820dp" />
 
         <Button
             android:id="@+id/button5"
@@ -159,13 +260,13 @@
             android:layout_height="72dp"
             android:background="#00FFFFFF"
             android:translationX="300dp"
-            android:translationY="660dp" />
+            android:translationY="820dp" />
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="67dp"
-            android:background="#FDFCFC"
-            android:translationY="664dp">
+            android:background="#EBE8E8"
+            android:translationY="824dp">
 
             <TextView
                 android:id="@+id/textView8"
@@ -195,7 +296,7 @@
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="40dp"
+                android:layout_width="39dp"
                 android:layout_height="36dp"
                 android:translationX="57dp"
                 android:translationY="10dp"
@@ -216,7 +317,7 @@
             android:layout_width="95dp"
             android:layout_height="82dp"
             android:translationX="155dp"
-            android:translationY="630dp"
+            android:translationY="785dp"
             app:srcCompat="@drawable/photoicon" />
 
         <FrameLayout
@@ -235,6 +336,7 @@
                 android:textSize="24sp"
                 android:translationX="22dp"
                 android:translationY="3dp" />
+
         </FrameLayout>
 
     </FrameLayout>
