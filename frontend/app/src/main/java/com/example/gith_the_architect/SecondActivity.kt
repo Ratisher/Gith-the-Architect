@@ -14,7 +14,7 @@ class SecondActivity : ComponentActivity() {
         setContentView(R.layout.activity_registration);
         val button: Button = findViewById(R.id.button)
         button.setOnClickListener {
-            val intent = Intent(this, ThirdActivity::class.java)
+            val intent = Intent(this, MenuActivity::class.java)
             startActivity(intent)
         }
     }

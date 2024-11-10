@@ -5,4 +5,7 @@
     <string name="title_activity_main2">MainActivity2</string>
     <string name="title_activity_menu">MenuActivity</string>
     <string name="title_activity_progress">ProgressActivity</string>
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_map">MapActivity</string>
 </resources>

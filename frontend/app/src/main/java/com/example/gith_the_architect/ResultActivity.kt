@@ -15,29 +15,30 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.gith_the_architect.ui.theme.GiththeArchitectTheme
 
-class ProgressActivity : ComponentActivity() {
+class ResultActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_progress);
-        val button: Button = findViewById(R.id.button11)
+        setContentView(R.layout.activity_result);
+        val button: Button = findViewById(R.id.button8)
         button.setOnClickListener {
-            val intent = Intent(this, PhotoActivity::class.java)
+            val intent = Intent(this, MenuActivity::class.java)
             startActivity(intent)
         }
-        val button2: Button = findViewById(R.id.button6)
+        val button2: Button = findViewById(R.id.button9)
         button2.setOnClickListener {
             val intent = Intent(this, ProgressActivity::class.java)
             startActivity(intent)
         }
-        val button3: Button = findViewById(R.id.button7)
+        val button3: Button = findViewById(R.id.button10)
         button.setOnClickListener {
             val intent = Intent(this, MapActivity::class.java)
             startActivity(intent)
         }
-        val button4: Button = findViewById(R.id.button12)
+        val button4: Button = findViewById(R.id.button14)
         button4.setOnClickListener {
             val intent = Intent(this, MenuActivity::class.java)
             startActivity(intent)
         }
     }
 }
+

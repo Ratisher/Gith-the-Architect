@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c3defa">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="57dp"
+            android:layout_height="58dp"
+            android:foregroundTint="#7631E9"
+            android:src="@drawable/ic_action_name" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="601dp"
+            android:translationX="12dp"
+            android:translationY="64dp"
+            app:srcCompat="@drawable/mapapp" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="59dp"
+            android:layout_height="61dp"
+            android:background="#00FFFFFF" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="99dp"
+            android:layout_height="105dp"
+            android:background="#00FFFFFF"
+            android:translationX="155dp"
+            android:translationY="630dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="99dp"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:translationX="25dp"
+            android:translationY="660dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="99dp"
+            android:layout_height="72dp"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:translationX="300dp"
+            android:translationY="660dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Гид архитектуры"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#000000"
+            android:textColorLink="#7631E9"
+            android:textSize="24sp"
+            android:translationX="65dp"
+            android:translationY="13dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:background="#FDFCFC"
+            android:translationY="664dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сделать фото"
+                android:textSize="10sp"
+                android:translationX="170dp"
+                android:translationY="45dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="40dp"
+                android:layout_height="36dp"
+                android:src="@drawable/mapicon"
+                android:translationX="327dp"
+                android:translationY="10dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Карта"
+                android:textSize="10sp"
+                android:translationX="335dp"
+                android:translationY="45dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="40dp"
+                android:layout_height="36dp"
+                android:src="@drawable/progressicon"
+                android:translationX="57dp"
+                android:translationY="10dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Прогресс"
+                android:textSize="10sp"
+                android:translationX="55dp"
+                android:translationY="45dp" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="95dp"
+            android:layout_height="82dp"
+            android:src="@drawable/photoicon"
+            android:translationX="155dp"
+            android:translationY="630dp" />
+
+    </FrameLayout>
+</LinearLayout>
