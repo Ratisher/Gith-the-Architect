@@ -58,4 +58,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation("com.squareup.okhttp3:okhttp:4.9.3")
+    runtimeOnly("androidx.cardview:cardview:1.0.0-alpha1")
 }

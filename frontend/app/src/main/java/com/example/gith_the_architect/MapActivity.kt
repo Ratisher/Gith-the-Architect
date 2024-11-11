@@ -19,21 +19,6 @@ class MapActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_map);
-        val button: Button = findViewById(R.id.button11)
-        button.setOnClickListener {
-            val intent = Intent(this, PhotoActivity::class.java)
-            startActivity(intent)
-        }
-        val button2: Button = findViewById(R.id.button6)
-        button2.setOnClickListener {
-            val intent = Intent(this, ProgressActivity::class.java)
-            startActivity(intent)
-        }
-        val button3: Button = findViewById(R.id.button7)
-        button.setOnClickListener {
-            val intent = Intent(this, MapActivity::class.java)
-            startActivity(intent)
-        }
         val button4: Button = findViewById(R.id.button13)
         button4.setOnClickListener {
             val intent = Intent(this, MenuActivity::class.java)

@@ -5,19 +5,20 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="wrap_content"
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/phototest" />
+        android:src="@drawable/phototest" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="95dp"
-        android:layout_height="82dp"
-        android:src="@drawable/photoicon"
-        android:translationX="775dp"
-        android:translationY="175dp" />
+        android:translationX="173dp"
+        android:translationY="725dp"
+        android:layout_width="115dp"
+        android:layout_height="108dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photoicon" />
 
     <Button
         android:id="@+id/button2"
